@@ -2,21 +2,21 @@
     font-family: 'SourceCodePro';
     font-weight: normal;
     font-style: normal;
-    src: local(SourceCodePro), url('./mint/SourceCodePro-Regular.ttf')
+    src: url('nexmoe/SourceCodePro-Regular.ttf') format("truetype")
 }
 
 @font-face {
     font-family: 'NotoSansSC';
     font-weight: normal;
     font-style: normal;
-    src: url('./mint/NotoSansSC-Regular.otf')
+    src: url('nexmoe/NotoSansSC-Regular.otf')
 }
 
 @font-face {
     font-family: 'NotoSansSC';
     font-weight: bold;
     font-style: normal;
-    src: url('./mint/NotoSansSC-Bold.otf')
+    src: url('nexmoe/NotoSansSC-Bold.otf')
 }
 
 html {
@@ -30,7 +30,7 @@ content {
 
 code,
 .CodeMirror {
-    background-color: rgba(27, 31, 35, 0.05);
+    background-color: rgba(187, 216, 255, 0.05)!important;
     border-radius: 6px;
     font-size: 85%;
     padding: 0.2em 0.4em;
