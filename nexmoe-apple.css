@@ -21,10 +21,10 @@
 
 html {
     font-size: 16px;
+    font-family: 'NotoSansSC';
 }
 
 content {
-    font-family: 'NotoSansSC';
     background-image: var(--editorbg)
 }
 
@@ -65,7 +65,7 @@ code,
 
 @page {
     size: A4;
-    margin: 8mm 0mm;
+    margin: 5mm 0mm;
 }
 
 
